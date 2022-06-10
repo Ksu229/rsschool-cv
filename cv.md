@@ -1,6 +1,9 @@
 # KSENIIA OSADCHUK
 ******
 ## CONTACTS:
+**City:** St Petersburg
+
+
 **E-mail:** Ksu229@list.ru
 
 
