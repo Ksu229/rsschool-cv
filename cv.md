@@ -34,6 +34,9 @@ no relevant experience yet
 ## EDUCATION
 JavaScript/Front-end. (Rsschool)
 ## LANGUAGES
+Russian - native
+
+
 English - Intermediate
 
 
