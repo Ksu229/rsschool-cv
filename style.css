@@ -1,0 +1,103 @@
+@font-face {
+    font-family: joan;
+    src: url('assets/fonts/Joan-Regular.ttf');
+}
+html {
+    scroll-behavior: smooth;
+}
+.body {
+    min-height: 100vh;
+    background-color: rgb(231, 35, 35);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header {
+    font-family: Joan;
+    color: white;
+    width: 1440px;
+    background: rgb(231, 35, 35);
+    padding: 10px;
+    padding-right: 30 px;
+}
+.container {
+    max-width: 1440 px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+.nav-item a {
+    font-family: Joan;
+    color:whitesmoke;
+    text-decoration:none;
+    transition:color 0,5s;
+}
+.nav-item a:hover {
+    background: lightgray;
+    color:black;
+}
+.main {
+    font-family: Joan;
+    color: rgb(70, 66, 66);
+    width: 1440px;
+    background: white;
+    padding: 10px;
+    padding-right: 30 px;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    width: 50%;
+}
+.contacts__line {
+    padding: 0 20 px;
+    line-height: 30px;
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+.section-title {
+    font-family: Joan;
+    color:rgb(231, 35, 35);
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+}
+.footer {
+    font-family: Joan;
+    color: white;
+    width: 1440px;
+    background: rgb(231, 35, 35);
+}
+.footer-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.footer-item {
+    justify-self:end;
+    height: 20px;
+}
+.github nav-link {
+    padding: 20px 60px 20px 60px;
+    line-height: 100px;
+    transition: .3s;
+    justify-self: center;
+}
