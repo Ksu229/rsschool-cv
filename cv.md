@@ -37,6 +37,8 @@ function max (a, b) {
 ```
 ## WORK EXPERIENCE
 During Stage 0 I made up a website and also developed an app for websites.
+
+
 My app: https://rolling-scopes-school.github.io/ksu229-JSFEPRESCHOOL2022Q2/momentum0/
 
 ## EDUCATION
