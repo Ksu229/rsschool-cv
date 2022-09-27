@@ -17,4 +17,37 @@ After the University I worked for a large enterprise in St P as an accountant. T
 
 Now I have some free time so I'd like to try myself in a new professional field. I get pleasure from studying something new. It's a great challenge for me. 
 I'm able to work under pressure and I have attention to details. I'm friendly, polite, responsible, reliable and quick-minded.
+## SKILLS
+JavaScript
 
+
+GIT
+
+
+HTML, CSS
+## CODE EXAMPLES
+```JAVASCRIPT
+function max (a, b) {
+    if (a > b) {
+        return a;
+    } else {
+        return b;
+    };
+};
+```
+## WORK EXPERIENCE
+During Stage 0 I made up a website and also developed an app for websites.
+
+## EDUCATION
+
+JavaScript/Front-end. (RSSchool Stage 0)
+
+## LANGUAGES
+
+Russian - native
+
+
+English - intermediate
+
+
+German, Italian, French - elementary
