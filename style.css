@@ -1,0 +1,222 @@
+/* joan-regular - latin */
+@font-face {
+    font-family: 'Joan';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/joan-v1-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/joan-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./assets/fonts/joan-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./assets/fonts/joan-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./assets/fonts/Joan-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./assets/fonts/joan-v1-latin-regular.svg') format('svg'); /* Legacy iOS */
+  }
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit; 
+}
+body {
+    font-family: 'Joan';
+    margin: 0;
+}
+
+/*-- header styles start --*/
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(12, 176, 241);
+}
+
+.header__wrapper {
+    width: 100%;
+}
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;  
+    margin: 20px;  
+    padding: 0px;
+}
+
+.header__item {
+    font-family: 'Joan';
+}
+
+.header__link {
+    text-decoration: none;
+    color: white;
+}
+
+.header__link:hover {
+    background: rgb(104, 103, 103);
+}
+
+/*-- header styles end --*/
+/*-- intro styles start --*/
+
+.intro {
+    width: 100%;
+    background: rgba(100, 194, 231, 0.747);
+}
+
+.intro__wrapper {
+    margin: 0 auto;
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 59px;
+    gap: 50px;
+}
+
+.intro-pic {
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+}
+
+.intro__title, .intro__subtitle {
+    font-family: 'Joan';
+    color: rgb(255, 255, 255);
+}
+
+.intro__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*-- intro styles end --*/
+
+
+/*-- info styles start --*/
+.info {
+    margin: 0;
+    background: rgba(133, 208, 238, 0.5);
+}
+
+.info__contacts, .info__summary, .info__skills, .info__code, .info__experience, .info__education, .info__languages {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.info__title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding-top: 10px;
+    color: rgb(12, 176, 241);
+}
+
+.info__list {
+    list-style: none;  
+    padding: 0px;
+}
+
+.info__item {
+    padding-bottom: 10px;
+}
+
+.info__text {
+    line-height: 150%;
+}
+
+.info__skill {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.info__skills-ico {
+    width: 70px;
+    height: 60px;
+}
+
+.info__skills-icogit {
+    width: 90px;
+    height: 60px;
+}
+
+.info__code-exm {
+    width: 30%;
+    border: 1px double rgb(12, 176, 241);
+    background: rgba(100, 194, 231, 0.747);
+}
+
+.info__exp {
+    height: 40px;
+    width: 150px;
+    background-color: rgba(100, 194, 231, 0.747);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__exp-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.info__exp-link:hover,.info__exp-link:active {
+    background-color: white;
+}
+
+.info__exp-link:disabled {
+    color:rgb(104, 103, 103);
+    background-color: white;
+}
+
+.info__languages {
+    padding-bottom: 50px;
+}
+/*-- info styles end --*/
+
+/*-- footer styles start --*/
+.footer {
+    width: 100%;
+    background: rgb(12, 176, 241);
+    margin: 0;
+}
+
+.footer__wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__text {
+    font-size: 22px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__link:hover, .footer__link:active {
+    background: rgba(100, 194, 231, 0.747);
+}
+
+.footer__link:disabled {
+    background: grey;
+}
+
+.footer__item-ico {
+    height: 120px;
+    width: 80px;
+}
+/*-- footer styles end --*/
